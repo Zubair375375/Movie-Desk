@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+body {
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.app-title {
+  background-color: purple;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  border-radius: 0.4rem;
+}
+.container-div{
+  margin: 1.5rem 0;
+}
+input{
+  width: 15rem;
+  height: 2rem;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  border: 0.09rem solid rgb(186, 186, 186);
+  border-radius: 0.3rem;
+}
+.btn-style{
+  background-color: purple;
+  color: white;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.btn-style2{
+  background-color: rgb(255, 213, 5);
+  color: black;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.btn-style3{
+  background-color: red;
+  color: white;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.btn-style:active{
+  background-color: rgb(255, 150, 255);
+  color: black;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.searches{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload span {
+  background-color: purple; /* Example color */
+  color: #fff; /* Example color */
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.custom-file-upload{
+  width: 14rem;
+  margin-top: 7px;
+}
+
+.custom-file-upload span:hover {
+  background-color: rgb(166, 103, 166);; /* Example hover color */
+}
+
+.card{
+  width: 25rem;
+  height: 12rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px -9px rgb(186, 186, 186);
+  margin: 1rem;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  padding: 0 1.5rem;
+}
+.whole{
+  display: flex;
+  border: 2px solid purple;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-id{
+  font-size: 90%;
+  margin: 0rem 0rem;
+  color: rgb(80, 80, 80);
+}
+.movie-title{
+  font-size: 90%;
+  margin: 0rem 0rem 0.3rem 0rem;
+  color: rgb(80, 80, 80);
+}
+.movie-para{
+  font-size: 90%;
+  color: rgb(154, 154, 154);
+  margin: 0rem 0rem;
+}
+.baseline-div{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 2.7rem;
+}
+.update-review{
+  width: 8rem;
+}
